@@ -43,7 +43,7 @@ function App() {
         <GoalInputs  onAddGoals = {addGoalsHandler}/>
       </section>
       <section id="goals">
-        <GoalsList items={goals}></GoalsList>
+        {content}
       </section>
     </div>
   );
