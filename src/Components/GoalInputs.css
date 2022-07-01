@@ -25,6 +25,15 @@
     border-color: #2563eb;
 }
 
+.form-control.invalid input {
+    border-color: #dc2626;
+    background-color: #fac0c0;
+}
+
+.form-control.invalid label {
+    color: #dc2626;
+}
+
 .button {
     font: inherit;
     padding: 0.5rem 1.5rem;
