@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import styled from 'styled-components';
 
+
 const Button = styled.button`
+    width: 100%;
     font: inherit;
     padding: 0.5rem 1.5rem;
     border: 2px solid #2563eb;
@@ -19,6 +21,10 @@ const Button = styled.button`
     background: #3b82f6;
     border-color: #3b82f6;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+    }
+
+    @media(min-width: 768px) {
+        width: auto;
     }
 `;
 
